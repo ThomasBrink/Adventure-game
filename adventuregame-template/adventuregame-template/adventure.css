@@ -1,0 +1,49 @@
+#container{
+	width: 1000px;
+	height: 500px;
+	border: solid black 2px;
+	margin: 0 auto;
+}
+
+.buttons{
+	width: 1000px;
+	height: 70px;
+	border: solid black 2px;
+	margin: 0 auto;
+}
+
+#MainImg{
+	width: 1000px;
+	height: 500px;
+}
+
+#chest{
+	position: relative;
+	display: none;
+	width: 70px;
+	height: 70px;
+	bottom: 200px;
+	left: 510px;
+}
+
+#lecturn{
+	position: relative;
+	display: none;
+	width: 90px;
+	height: 110px;
+	bottom: 300px;
+	left: 410px;
+}
+
+#inventoryItem{
+	display: none;
+}
+
+#sword{
+	position: relative;
+	display: none;
+	width: 35px;
+	height: 35px;
+	bottom: 270px;
+	left: 573px;
+}
