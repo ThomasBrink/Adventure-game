@@ -1,6 +1,7 @@
 var chest = document.getElementById("chest");
 var lecturn = document.getElementById("lecturn");
 var sword = document.getElementById("sword");
+var spel = document.getElementById("spel");
 var MainImg = document.getElementById("MainImg");
 var button1 = document.getElementById("button1");
 var button2 = document.getElementById("button2");
@@ -32,6 +33,7 @@ function NaarBieb(){
 	DisplayNone(3);
 	lecturn.style.display = "block";
 	chest.style.display = "block";
+	spel.style.display = "none";
 
 		button1.addEventListener("click", NaarKluis);
 		lecturn.addEventListener("click", OpenLecturn);
@@ -80,6 +82,7 @@ function NaarNetherRoom(){
 		button2.removeEventListener("click", VulCodeIn);
 		button2.removeEventListener("click", NaarNetherRoom);
 		button2.removeEventListener("click", NaarNetherRoom2);
+		spel.style.display = "none";
 		DisplayNone(1);
 }
 

@@ -47,3 +47,14 @@
 	bottom: 270px;
 	left: 573px;
 }
+
+#spel{
+	width: 1000px;
+	height: 40px;
+	border: solid black 2px;
+	margin: 0 auto;
+}
+
+.text{
+	text-align: center;
+}
